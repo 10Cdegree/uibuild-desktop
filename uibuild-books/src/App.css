@@ -1,0 +1,15 @@
+/* CONTAINER AND CHILD*/
+.cont {
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.cont .books {
+  width: 100%;
+  max-width: 1280px;
+  padding: 40px;
+  display: grid;
+  gap: 100px 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}

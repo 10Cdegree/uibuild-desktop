@@ -1,0 +1,58 @@
+.book {
+  background-color: var(--primary);
+  color: var(--secondary);
+  position: relative;
+  gap: 100px 20px;
+  padding: 40px;
+}
+
+.book .title {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: montserrat;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.book .sub {
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  font-weight: normal;
+  font-family: overpass;
+  text-transform: uppercase;
+}
+
+.book > .number {
+  position: absolute;
+  top: 0px;
+  left: 320px;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary);
+}
+
+.book .text {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: montserrat;
+}
+
+.book .info {
+  border-top: 2px solid var(--primary);
+}
+
+/*FONTS*/
+@font-face {
+  font-family: montserrat;
+  src: url(./fonts/montserrat/Montserrat-Medium.ttf);
+}
+/*FONTS*/
+@font-face {
+  font-family: overpass;
+  src: url(./fonts/overpass/Overpass-Light.ttf);
+}
