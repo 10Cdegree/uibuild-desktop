@@ -1,6 +1,6 @@
 {
-  "homepage": "https://10cdegree.github.io/uibuild-books-desktop/",
-  "name": "uibuild-books-desktop",
+  "homepage": "https://10cdegree.github.io/uibuild-desktop/",
+  "name": "uibuild-desktop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
